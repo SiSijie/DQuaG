@@ -36,11 +36,4 @@ We evaluate our approach using datasets with varied error types and data structu
 - *Hotel Booking Data*: Booking information for city and resort hotels.
 - *Credit Card Data*: Contains information on credit card applications.
 
-### Usage
-
-To execute the validation process, use the following command:
-
-```bash
-python validate_data.py
-
 
