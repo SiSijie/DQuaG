@@ -12,28 +12,29 @@ This repository contains the implementation of DQuaG (Data Quality Graph), a nov
 To run the code, please follow these steps to set up your environment:
 
 1. Clone the repository
-2. Install the required packages
+2. Install the required packages:
+pip install -r requirements.txt
 
 
 ## Experimental Setup
 
 Our experiments were conducted using the following environment:
 
-- **Programming Language**: Python 3.11
-- **Deep Learning Framework**: PyTorch 1.12.1
-- **Hardware**: NVIDIA A100 GPU
+- Python 3.11
+- PyTorch 1.12.1
+
 
 ### Datasets
 
 We evaluate our approach using datasets with varied error types and data structures:
 
 - **Datasets with Ground-Truth Errors**:
-- *Airbnb Data*: Contains listings for New York City.
-- *Chicago Divvy Bicycle Sharing Data*: Includes trip data from the Divvy bike-sharing program in Chicago.
+- *Airbnb Data*: Contains listings for New York City. https://www.kaggle.com/datasets/sandeepmajumdar/airbnbnyccleaned
+- *Chicago Divvy Bicycle Sharing Data*: Includes trip data from the Divvy bike-sharing program in Chicago. https://www.kaggle.com/datasets/yingwurenjian/chicago-divvy-bicycle-sharing-data/data
 
 - **Datasets Without Ground-Truth Errors**:
-- *New York Taxi Trip Data*: Comprises taxi trip records in New York City.
-- *Hotel Booking Data*: Booking information for city and resort hotels.
-- *Credit Card Data*: Contains information on credit card applications.
+- *New York Taxi Trip Data*: Comprises taxi trip records in New York City. https://data.cityofnewyork.us/Transportation/2015-Yellow-Taxi-Trip-Data/2yzn-sicd/about\_data
+- *Hotel Booking Data*: Booking information for city and resort hotels. https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data
+- *Credit Card Data*: Contains information on credit card applications. https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction?select=application\_record.csv
 
 
