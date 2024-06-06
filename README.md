@@ -48,7 +48,7 @@ This repository contains the following Jupyter notebooks at the root directory, 
 - `graph_dataset.ipynb`: This notebook is dedicated to the graph representation learning aspect of the project. It contains the preprocessing and setup of graph structures needed for learning.
 - `graphVAE_dataset_detect_batch.ipynb`: This notebook handles the training of the Variational Autoencoder (VAE) on different datasets and performs data quality detection using the trained models.
 - `requirements.txt`: All necessary Python dependencies.
-- 
+  
 These notebooks are designed to be run sequentially to understand the implementation and to replicate our experimental results.
 
 
