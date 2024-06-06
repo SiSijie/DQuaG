@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DQuaG
 Automated Data Quality Validation Using Graph Representation Learning
 =======
@@ -42,4 +41,16 @@ We evaluate our approach using datasets with varied error types and data structu
 - *Credit Card Data*: Contains information on credit card applications. https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction?select=application\_record.csv
 
 
->>>>>>> master
+## Code Structure
+
+This repository contains the following Jupyter notebooks at the root directory, each serving a specific purpose within the DQuaG framework:
+
+- `graph_dataset.ipynb`: This notebook is dedicated to the graph representation learning aspect of the project. It contains the preprocessing and setup of graph structures needed for learning.
+- `graphVAE_dataset_detect_batch.ipynb`: This notebook handles the training of the Variational Autoencoder (VAE) on different datasets and performs data quality detection using the trained models.
+- `requirements.txt`: All necessary Python dependencies.
+- 
+These notebooks are designed to be run sequentially to understand the implementation and to replicate our experimental results.
+
+
+
+
