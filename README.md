@@ -1,6 +1,6 @@
 # DQuaG
 
-# Automated Data Quality Validation Using Graph Representation Learning
+# Automated Data Quality Validation in an End-to-End GNN Framework
 
 ## Overview
 
