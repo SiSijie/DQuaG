@@ -6,7 +6,7 @@
 
 This repository contains the implementation of DQuaG (Data Quality Graph), a novel approach for automated data quality validation using graph representation learning. Our method leverages Graph Neural Network (GNN) and Variational Autoencoder (VAE) to detect and infer underlying data quality issues in datasets. This approach is designed to overcome limitations of traditional data quality validation methods which often fail to capture complex interdependencies within the data.
 
-![DQuaG Framework](Figure/framework_DQuaG.pdf)
+![DQuaG Framework](Figure/framework_DQuaG.png)
 *Figure 2: Framework of DQuaG approach*
 
 ## Installation
